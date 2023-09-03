@@ -1,0 +1,62 @@
+*{
+  background-color: #D0BFFF;
+}
+#button1{
+  width: 272px;
+  height: 50px;
+  text-align: right;
+  border: 2px solid wheat;
+  font-size: 30px;
+  overflow: scroll;
+  background: transparent;
+  color: white;
+}
+.calc{
+  top: 50%;
+  left: 50%;
+  margin: auto;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  background-image: url(../../Desktop/bg4.jpg);
+  border-radius: 5px;
+  background-size: cover;
+  width: 300px;
+  padding: 20px;
+  height: 500px;
+  font-size: 50px;
+  font-family: sans-serif;
+  border: 2px solid rgb(28, 27, 27);
+
+}
+#button{
+  margin-top: 10px;
+  width: 70px;
+  height: 70px;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+  margin: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  color: rgb(221, 221, 41);
+  float: left;
+}
+#button:hover{
+  background-color: #fff6dc72;
+  cursor: pointer;
+}
+#button2{
+  width: 140px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.6) ;
+  color: rgb(221, 221, 41);
+  font-size: 50px;
+  margin: 5px;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+}
+#button2:hover{
+  background-color: #c3b3ed8f;
+  cursor: pointer;
+}
+
